@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pasteleria Perez</title>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        
+        </style>
+</head>
+<body>
+<h1>Pasteleria Perez</h1>
+
+<nav>
+    <a href="">Inicio</a>
+    <a href="">contacto</a>
+    <a href="">Administracion</a>
+
+</nav>
+<br>
+
+<img src="resources/Three-kinds.jpg" alt="pasteles" width="1920" height="500">
+<h2>Ven y prueba los pasteles mas ricos de Chiapas</h2>
+
+<h3>Tenemos los siguiente sabores</h3>
+
+<table>
+    <tr>
+      <th>Sabor</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Chocolate</td>
+      <td>$300 MXN</td>
+    </tr>
+    <tr>
+      <td>Vainilla</td>
+      <td>$250 MXN</td>
+    </tr>
+    <tr>
+      <td>Fresas</td>
+      <td>$250 MXN</td>
+    </tr>
+    <tr>
+      <td>Moras</td>
+      <td>$300 MXN</td>
+    </tr>
+    <tr>
+      <td>Bombones</td>
+      <td>$500 MXN</td>
+    </tr>
+  </table>
+
+  <h3>Contamos con las siguiente decoraciones</h3>
+
+  <p>Avengers</p>
+  <img src="resources/tortas-los-vengadores-d.jpg" alt="Avengers" width="500" height="500">
+  <p>Princesas</p>
+  <img src="resources/1585452922.jpg" alt="Princesas" width="500" height="500" > 
+
+   <h2>Pide tu pastel en el siguiente formulario, en breve nos ponemos en conctacto contigo</h2>
+
+   <div style="background-color: bisque; border-style: solid; width: 900px;">
+       <form action="">
+        <label for="fnombre">Ingresa tu nombre:</label><br>
+        <input type="text" id="fnombre" name="fname"><br>
+        <label for="ltelefono">Ingresa tu numero de telefono:</label><br>
+        <input type="text" id="ltelefono" name="lname"><br>
+        <label for="lmail">Ingresa tu correo electronico:</label><br>
+        <input type="text" id="lmail" name="lname"><br>
+
+        <h3>Seleccione el sabor</h3>
+
+        <input type="radio" id="Chocolate" name="fav_sabor" value="Chocolate">
+        <label for="html">Chocolate</label><br>
+        <input type="radio" id="Vainilla" name="fav_sabor" value="Vainilla">
+        <label for="html">Vainilla</label><br>
+        <input type="radio" id="Fresa" name="fav_sabor" value="Fresa">
+        <label for="html">Fresa</label><br>
+        <input type="radio" id="Moras" name="fav_sabor" value="Moras">
+        <label for="html">Moras</label><br>
+        <input type="radio" id="Bombones" name="fav_sabor" value="Bombones">
+        <label for="html">Bombones</label><br>
+
+        <h3>Seleccione el adorno</h3>
+        <input type="checkbox" id="Avengers" name="fav_adorno" value="Avengers">
+        <label for="html">Avengers</label><br>
+        <input type="checkbox" id="Princesas" name="fav_adorno" value="Princesas">
+        <label for="html">Princesas</label><br>
+        <br>
+        <br>
+        <input type="submit" value="Solicitar pedido">
+        <br>
+        <br>
+       </form>
+   </div>
+</body>
+</html>
